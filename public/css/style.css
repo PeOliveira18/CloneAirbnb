@@ -1,0 +1,87 @@
+.header-container{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.busca{
+    gap: 10px;
+    border-radius: 25px;
+    border: 1px solid #DFDFDF;
+    padding: 15px;
+}
+
+.busca-btn{
+    border: none;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+}
+
+.busca:hover{
+    box-shadow: 0px 1px rgba(225,225,225,70%);
+}
+
+
+.divisor{
+    height: 25px;
+    width: 1px;
+    background-color: #DFDFDF;
+    border: none;
+}
+
+.espaco-direita{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    margin-left: -130px;
+}
+
+#anuncie{
+    background-color: white;
+    border: none;
+    border-radius: 25px;
+    padding: 15px;
+}
+
+#anuncie:hover{
+    background-color: rgba(238, 233, 233, 0.623);
+    
+}
+
+.global{
+    display: flex;
+    background-color: white;
+    padding: 5px;
+    border: none;
+    border-radius: 25px;
+}
+
+.global:hover{
+    background-color: #DFDFDF;
+}
+
+#perfil{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border: 1px solid #DFDFDF;
+    border-radius: 25px;
+    padding: 5px;
+    gap: 10px;
+}
+
+#perfil:hover{
+    box-shadow: 0px 1px rgba(225,225,225,70%);
+}
+
+.divide-header{
+    width: 100vw;
+    border: 1px solid #DFDFDF;
+    margin-top: 30px;;
+}
