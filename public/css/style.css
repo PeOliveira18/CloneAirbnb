@@ -109,7 +109,7 @@
     width: 60%;
     margin: 0 auto;
     margin-top: 20px;
-    height: 1500px;
+    height: 2500px;
 }
 
 .titulo{
@@ -197,12 +197,9 @@
 }
 
 .section-direita{
-    margin-top: 35px;
-    border: 1px solid #DFDFDF;
-    border-radius: 10px;
-    width: 350px;
-    gap: 10px;
-    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    
 }
 
 .subtitulo{
@@ -219,12 +216,16 @@
     justify-content: space-around;
     margin-top: 20px;
     border: 1px solid #DFDFDF;
-    border-radius: 15px;
-    padding: 20px;
+    border-radius: 12px;
+    padding: 22px 26px;
     align-items: center;
-    width: 87%;
+    width: 85%;
     gap: 20px;
     cursor: pointer;
+}
+
+.card-preferido p{
+    font-size: 15px;
 }
 
 .quebra1{
@@ -310,6 +311,16 @@
     border: 1px solid #DFDFDF;
     margin-top: 20px;
 }
+
+.card-maior{
+    margin-top: 35px;
+    border: 1px solid #DFDFDF;
+    border-radius: 10px;
+    width: 350px;
+    gap: 10px;
+    padding: 24px;
+}
+
 
 .preco{
     display: flex;
@@ -439,4 +450,61 @@
 
 .detalhes a{
     color: black;
+}
+
+.divide-preco{
+    width: 100%;
+    border: 1px solid #DFDFDF;
+    margin-top: 20px;
+}
+
+.total{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+
+.card-menor{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    gap: 10px;
+    margin-top: 10px;
+    border: 1px solid #DFDFDF;
+    border-radius: 10px;
+    padding: 24px;
+    width: 350px;
+}
+
+.card-menor svg{
+    width: 24px;
+    height: 24px;
+}
+
+.svg-etiqueta{
+    margin-top: -40px;
+}
+
+.titulo-preco {
+    font-size: 15px;
+}
+
+.subtitulo-preco{
+    font-size: 13px;
+    font-weight: lighter;
+    color: grey;
+}
+
+.denuncia{
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.denuncia a{
+    color: grey;
+    font-weight: lighter;
 }
