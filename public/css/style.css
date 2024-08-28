@@ -7,11 +7,16 @@
     margin-top: 10px;
 }
 
+.header-container img{
+    cursor: pointer;
+}
+
 .busca{
     gap: 10px;
     border-radius: 25px;
     border: 1px solid #DFDFDF;
     padding: 8px;
+    cursor: pointer;
 }
 
 .busca-btn{
@@ -21,7 +26,6 @@
     justify-content: center;
     align-items: center;
     gap: 10px;
-    cursor: pointer;
     font-size: 14px;
     padding-left: 10px;
     padding-right: 10px;
@@ -57,6 +61,7 @@
     border: none;
     border-radius: 25px;
     padding: 15px;
+    cursor: pointer;
 }
 
 #anuncie:hover{
@@ -86,6 +91,7 @@
     border-radius: 25px;
     padding: 10px;
     gap: 10px;
+    cursor: pointer;
 }
 
 
@@ -103,6 +109,7 @@
     width: 60%;
     margin: 0 auto;
     margin-top: 20px;
+    height: 1500px;
 }
 
 .titulo{
@@ -177,4 +184,259 @@
     padding: 8px;
     border-radius: 10px;
     cursor: pointer;
+}
+
+.secoes{
+    display: flex;
+    justify-content: space-between; 
+}
+
+.section-esquerda{
+    display: flex;
+    flex-direction: column;
+}
+
+.section-direita{
+    margin-top: 35px;
+    border: 1px solid #DFDFDF;
+    border-radius: 10px;
+    width: 350px;
+    gap: 10px;
+    padding: 24px;
+}
+
+.subtitulo{
+    margin-top: 30px;
+    gap: 10px;
+}
+
+.subtitulo p{
+    font-weight: lighter;
+}
+
+.card-preferido{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    border: 1px solid #DFDFDF;
+    border-radius: 15px;
+    padding: 20px;
+    align-items: center;
+    width: 87%;
+    gap: 20px;
+    cursor: pointer;
+}
+
+.quebra1{
+    max-width: 10%;
+    text-align: center;
+    margin-left: -10px;
+    margin-right: -10px;
+}
+
+.quebra2{
+    max-width: 30%;
+}
+
+.notas{
+    align-items: center;
+}
+
+.nota{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.estrelas{
+    display: flex;
+    align-items: center;
+    gap: 2px;
+    margin-top: 5px;
+}
+
+.avaliacoes{
+    align-items: center;
+}
+
+.numero-avaliacoes{
+    display: flex;
+    justify-content: center;
+}
+
+.texto-avaliacao{
+    align-items: center;
+    text-decoration: none;    
+}
+
+.texto-avaliacao a{
+    color: black;
+    font-size: 13px;  
+}
+
+.divisor2{
+    height: 60px;
+    width: 1px;
+    background-color: #DFDFDF;
+    border: none;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.anfitriao{
+    display: flex;
+    align-items: center;
+    margin-top: 25px;
+}
+
+.anfitriao svg{
+    position: absolute;
+    top: 99.5%;
+    left: 21.5%;
+}
+
+.descricao-anfitriao{
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+}
+
+.descricao-anfitriao p{
+    font-weight: lighter;
+}
+
+.divisor-anfitriao{
+    width: 92%;
+    border: 1px solid #DFDFDF;
+    margin-top: 20px;
+}
+
+.preco{
+    display: flex;
+    gap: 5px;
+}
+
+.preco p{
+    display: flex;
+    align-items: end;
+    font-weight: lighter;
+}
+.datas{
+    display: grid;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.datas input{
+    border: none;
+    font-weight: lighter;
+    cursor: pointer;
+}
+
+.datas label{
+    font-size: 12px;
+}
+
+.check-in{
+    border: 1px solid #DFDFDF;
+    padding: 20px;
+    border-top-left-radius: 10px;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    cursor: pointer;
+}
+
+.checkout{
+    border: 1px solid #DFDFDF;
+    padding: 20px;
+    border-top-right-radius: 10px;
+    grid-column-start: 2;
+    grid-column-end: 2;
+    cursor: pointer;
+}
+
+.hospedes{
+    border: 1px solid #DFDFDF;
+    padding: 20px;
+    grid-row-start: 2;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    text-align: left;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.politicas{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px; 
+}
+
+.politicas label{
+    font-weight: lighter;
+}
+
+.nao-reembolsavel{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    border: 1px solid #DFDFDF;
+    padding: 15px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+
+.reembolsavel{
+    border: 1px solid #DFDFDF;
+    padding: 15px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.reembolsavel p{
+    margin-top: 5px;
+    font-size: 12px;
+    font-weight: lighter;
+    max-width: 90%;
+}
+
+.form{
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn-reservar{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+#reservar{
+    border: 1px solid #FF385C;
+    background-color: #FF385C;
+    border-radius: 10px;
+    width: 100vw;
+    padding: 15px;
+    color: white;
+    font-size: 15px;
+}
+
+.aviso{
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
+
+.aviso p{
+    font-weight: lighter;
+    font-size: 13px;
+}
+
+.detalhes{
+    margin-top: 25px;
+}
+
+.detalhes a{
+    color: black;
 }
