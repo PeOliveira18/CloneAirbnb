@@ -306,7 +306,7 @@
     font-weight: lighter;
 }
 
-.divisor-anfitriao{
+.divisor-esquerda{
     width: 92%;
     border: 1px solid #DFDFDF;
     margin-top: 20px;
@@ -507,4 +507,116 @@
 .denuncia a{
     color: grey;
     font-weight: lighter;
+}
+
+.caracteristicas-container{
+    display: flex;
+    gap: 20px;
+    flex-direction: column; 
+    margin-top: 20px;
+}
+
+.detalhes-container{
+    display: flex;
+    justify-content: start;
+    align-items: start;
+}
+
+.detalhes-container img{
+    width: 24px;
+    height: 24px;
+}
+
+.texto-detalhes{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    margin-left: 20px;
+    margin-top: -5px;
+    align-items: start;
+    gap: 5px;
+}
+
+.texto-detalhes p{
+    font-weight: lighter;
+}
+
+.descricao{
+    max-width: 90%;
+    margin-top: 20px;
+}
+
+.descricao span{
+    font-weight: lighter;
+}
+
+.mostrar-mais{
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    gap: 5px;
+}
+
+.mostrar-mais a{
+    color: black;
+}
+
+.onde-dorme{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.onde-dorme img{
+    margin-top: 20px;
+    border-radius: 10px;
+    width: 318px;
+    height: 212px;
+}
+
+.descricao-comodo{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    gap: 5px;
+}
+
+.descricao-quarto{
+    font-weight: lighter;
+}
+
+.oferecimentos-container{
+    margin-top: 20px;
+}
+
+.oferecimentos-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 50px 50px;
+    column-gap: 50px;
+}
+
+.oferecimento{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.btn-mostrar{
+    display: flex;
+    justify-content: left;
+    margin-top: 40px;
+}
+
+.btn-mostrar button{
+    width: 302px;
+    height: 48px;
+    border-radius: 10px;
+    border: 1px solid black;
+    background-color: #f7f7f7;
+}
+
+.btn-mostrar button:hover{
+    background-color: #DFDFDF;
 }
