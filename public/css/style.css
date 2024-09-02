@@ -664,7 +664,7 @@
 }
 
 .modal-subtitulo{
-    padding-top: 20px;
+    padding-top: 30px;
 }
 
 .conteudo-oferecido{
@@ -686,6 +686,10 @@
     width: 90%;
     border: 1px solid #DFDFDF;
     margin-top: 20px;
+}
+
+.descricao-quarto-ultimo{
+    padding-bottom: 50px;
 }
 
 .subtitulo-comodidades{
