@@ -609,14 +609,87 @@
     margin-top: 40px;
 }
 
-.btn-mostrar button{
+#abrir-modal{
     width: 302px;
     height: 48px;
     border-radius: 10px;
     border: 1px solid black;
     background-color: #f7f7f7;
+    cursor: pointer;
+    z-index: 0;
 }
 
-.btn-mostrar button:hover{
-    background-color: #DFDFDF;
+#desaparece, #modal{
+    transition: 0.5s;
+    opacity: 1;
+    pointer-events: all;
+}
+
+#desaparece{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.6);
+    z-index: 5;
+}
+
+#modal{
+    position: fixed;
+    background-color: #fff;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    z-index: 10;
+    width: 700px;
+    max-width: 90%;
+    height: 700px;
+    padding-left: 30px;
+    border-radius: 20px;
+    border: 1px solid #DFDFDF;
+    overflow-y: scroll;
+}
+
+.btn-fechar{
+    padding-top: 20px;
+}
+
+#fechar-modal{
+    cursor: pointer;
+}
+
+.modal-titulo{
+    padding-top: 40px;
+}
+
+.modal-subtitulo{
+    padding-top: 20px;
+}
+
+.conteudo-oferecido{
+    display: flex;
+    margin-top: 30px;
+    gap: 20px;
+}
+
+#modal.esconder, #desaparece.esconder{
+    opacity: 0;
+    pointer-events: none;
+}
+
+#modal.esconder{
+    bottom: 0;
+}
+
+.divisor-modais{
+    width: 90%;
+    border: 1px solid #DFDFDF;
+    margin-top: 20px;
+}
+
+.subtitulo-comodidades{
+    display: flex;
+    justify-content: left;
+    font-weight: lighter;
 }
