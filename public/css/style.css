@@ -194,12 +194,12 @@
 .section-esquerda{
     display: flex;
     flex-direction: column;
+    width: 65%;
 }
 
 .section-direita{
     display: flex;
     flex-direction: column;
-    
 }
 
 .subtitulo{
@@ -708,8 +708,6 @@
     display: grid;
     grid-template-rows: 200px 200px;
     grid-template-columns: 1fr 1fr;
-    grid-column-start: 1;
-    grid-column-end: 3;
     column-gap: 10px;
     margin-top: 20px;
     width: 160%;
@@ -757,3 +755,24 @@
     color: grey;
     font-size: 13px;
 }
+
+.titulo-regras{
+    margin-top: 30px;
+}
+
+.regras-container{
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 282px 350px 370px;
+    column-gap: 90px;
+    margin-top: 20px;
+}
+
+.descricao-regras{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-size: 1rem;
+}
+
+
