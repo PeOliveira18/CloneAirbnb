@@ -109,7 +109,6 @@
     width: 60%;
     margin: 0 auto;
     margin-top: 20px;
-    height: 2500px;
 }
 
 .titulo{
@@ -775,4 +774,8 @@
     font-size: 1rem;
 }
 
-
+.divide-footer{
+    width: 100vw;
+    border: 1px solid #DFDFDF;
+    margin-top: 20px;
+}
