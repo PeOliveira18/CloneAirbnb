@@ -716,7 +716,6 @@
 
 .comentarios-container{
     display: grid;
-    justify-content: space-around;
     grid-template-rows: 200px 200px;
     grid-template-columns: 580px 450px;
     margin-top: 20px;
