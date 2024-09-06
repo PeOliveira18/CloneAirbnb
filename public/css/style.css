@@ -136,11 +136,11 @@
 .fotos{
     display: grid;
     grid-template-rows: 250px 250px;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 275px 275px 275px 275px;
     margin-top: 30px;
     column-gap: 10px;
     row-gap: 10px;
-    max-width: 99%;
+    max-width: 100%;
 }
 
 .fotos img {
