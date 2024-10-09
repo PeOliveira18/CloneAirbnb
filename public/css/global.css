@@ -4,8 +4,10 @@
     font-family: 'MMC', sans-serif;
     font-weight: bold;
     overflow-x: hidden;
+    max-width: 100%;
 }
 
 footer{
     background-color: #F7F7F7;
+    max-width: 100%;
 }

@@ -1,0 +1,48 @@
+@media  (max-width: 1448px){
+    .header-container{
+        justify-content: center;
+        
+    }
+}
+
+
+@media (max-width:860px){
+    .header-container{
+        display: none;
+    }
+}
+@media  (max-width: 1124px){
+    .desaparece{
+        display: none;
+    }
+    .header-container{
+        padding: 0 40px 0 40px;
+    }
+    .titulo{
+        padding: 0 40px 0 40px;
+    }
+    .fotos{
+        padding: 0 40px 0 40px;
+    }
+    .secoes{
+        padding: 0 40px 0 40px;
+    }
+    .comentarios-container{
+        padding: 0 40px 0 40px;
+    }
+    .titulo-regras{
+        padding: 0 40px 0 40px;
+    }
+    .regras-container{
+        padding: 0 40px 0 40px;
+    }
+    .ajuda-container{
+        padding: 0 40px 0 40px;
+    }
+    .detalhes-footer{
+        padding: 0 40px 0 40px;
+    }
+    .info-container{
+        padding: 0 40px 30px 40px;
+    }
+}
