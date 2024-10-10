@@ -14,6 +14,10 @@
     display: flex;
 }
 
+.aparece{
+    display: none;
+}
+
 .header-container img{
     cursor: pointer;
 }
@@ -116,8 +120,6 @@
     max-width: 100%;
     max-height: 100%;
     box-sizing: border-box;
-
-
 }
 
 .titulo{
@@ -126,12 +128,23 @@
     margin: 0 auto;
     padding: 0 80px 0 80px;
     width: 1130px;
+    max-width: 100%;
+    align-items: center;
+}
 
+.titulo-pagina{
+    width: 1500px;
+}
+
+.titulo-pagina h1{
+    font-size: 26px;
 }
 
 .interacoes{
     display: flex;
     gap: 10px;
+    width: 100%;
+    justify-content: flex-end;
 }
 
 .btn{
@@ -148,12 +161,12 @@
 .fotos{
     display: grid;
     margin: 0 auto;
-    grid-template-rows: 250px 250px;
-    grid-template-columns: 275px 275px 275px 275px;
+    grid-template-rows: repeat(2, 250px);
+    grid-template-columns: repeat(4, 275px);
     column-gap: 10px;
     row-gap: 10px;
     padding: 30px 80px 0 80px;
-    width: 100%;
+
 }
 
 .fotos img {
@@ -224,22 +237,26 @@
 .secoes{
     display: flex;
     padding: 0 80px 0 80px;
-    margin: 0 auto;
+    justify-content: center;
     max-width: 100%;
-    justify-content: space-between;
+    margin: 0 auto;
 }
 
 .section-esquerda{
     display: flex;
     flex-direction: column;
     align-items: start;
-    width: 720px;
+    width: 640px;
+    padding-right: 20px;
+    max-width: 100%;
 }
 
 .section-direita{
     display: flex;
     flex-direction: column;
+    width: 470px;
     align-items: end;
+
 }
 
 .subtitulo{
@@ -253,19 +270,20 @@
 
 .card-preferido{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     margin-top: 20px;
     border: 1px solid #DFDFDF;
     border-radius: 12px;
-    padding: 22px;
+    padding: 22px 26px;
     align-items: center;
-    width: 630px;
-    gap: 10px;
+    width: 600px;
+    height: 65px;
     cursor: pointer;
+    overflow: hidden;
 }
 
 .card-preferido p{
-    font-size: 15px;
+    font-size: 14px;
 }
 
 .quebra1{
@@ -515,7 +533,7 @@
     border: 1px solid #DFDFDF;
     border-radius: 10px;
     padding: 24px;
-    width: 85%;
+    width: 350px;
     height: 50px;
 }
 
@@ -871,11 +889,22 @@
     margin-top: 40px;
 }
 
+.divide-footer-menor{
+    border: 1px solid #DFDFDF;
+    margin: 0 auto;
+    width: 100%;
+    margin-top: 30px;
+}
+
 .info-container{
-    margin: 10px auto;
+    margin: 0 auto;
     display: flex;
-    padding: 0 80px 30px 80px;
-    width: 1150px;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    padding: 10px 80px 30px 80px;
+    width: 80%;
+    gap: 0;
 }
 
 .esquerda{
@@ -885,6 +914,7 @@
 
 .direita{
     display: flex;
+    flex-direction: row;
     align-items: center;
     gap: 15px;
 }
@@ -922,4 +952,8 @@
     border: 1px solid #DFDFDF;
     width: 1600px;
     margin-bottom: 20px;
+}
+
+.ponto{
+    display: block;
 }

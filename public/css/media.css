@@ -12,13 +12,71 @@
     .mostrar-mais{
         margin-bottom: 20px;
     }
+    .info-container{
+        flex-direction: column-reverse;
+        gap: 20px;
+        width: 100%;
+    }
+    .titulo{
+        width: 90%;
+        align-items: center;
+    }
+    
+    .fotos{
+        grid-template-rows: repeat(2, 1fr);
+        grid-template-columns: repeat(4, 1fr);
+        padding: 0 40px 0 80px;
+    }   
+    .section-direita{
+        width: auto;
+    }
+    .section-esquerda{
+        width: 60%;
+    }
+    .card-preferido{
+        width: 90%;
+    }
+    .card-maior{
+        width: 70%;
+    }
+    .card-menor{
+        width: 70%;
+    }
 }
 
 @media (max-width: 1075px){
     .comentarios-container{
-        grid-template-rows: 220px 220px 220px 220px;
+        grid-template-rows: 260px 260px 260px 260px;
         grid-template-columns: 100%;
         width: 100%;
+    }
+    .detalhes-comentarios{
+        max-width: 100%;
+        flex-wrap: wrap;
+        font-size: 5px;
+    }
+    .ajuda-container{
+        grid-template-columns: 250px;
+        grid-template-rows: 1fr 1fr 1fr;
+        width: 100%;
+    }
+    .ajuda-texto{
+        width: 100%;
+    }
+}
+
+@media (max-width: 1010px){
+    .section-direita{
+        display: none;
+    }
+    .section-esquerda{
+        max-width: 100%;
+        width: 100%;
+        padding-right: 80px;
+    }
+    .espaco-btn button{
+        padding: 5px;
+        width: 120px;
     }
 }
 
@@ -36,7 +94,7 @@
         padding: 0 40px 0 40px;
     }
     .secoes{
-        padding: 0 40px 0 40px;
+        padding: 0 80px 0 40px;
     }
     .comentarios-container{
         padding: 0 40px 0 40px;
@@ -73,6 +131,46 @@
         height: 80px;
     }
     
+}   
+
+@media (max-width: 860px) {
+    .aparece{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 10px;
+    }
+    .titulo{
+        margin-bottom: 20px;
+    }
+    .fotos {
+        grid-template-rows: repeat(1, 250px);
+        grid-template-columns: repeat(1, 100%);
+        margin-top: 20px;
+    }
+    .img1 img{
+        border-top-left-radius: 0;
+        border-bottom-left-radius: 0;
+    }
+    .img2,
+    .img3,
+    .img4,
+    .img5 {
+        display: none; 
+    }
+}
+
+@media (max-width: 730px){
+    .esquerda{
+        flex-direction: column;
+        width: 100%;
+    }
+    .direita{
+        width: 100%;
+    }
+    .ponto{
+        display: none;
+    }
 }
 
 @media (max-width: 600px){
