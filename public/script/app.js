@@ -10,3 +10,20 @@ const mudaModal = () => {
 [btnAbrirModal, btnFecharModal, desaparece].forEach((evento) => {
     evento.addEventListener("click", () => mudaModal());
 })
+
+function mudaTexto() {
+    var larguraTela = window.innerWidth
+    var elementos = document.getElementsByClassName('mudaTexto')
+
+    for (var i = 0; i < elementos.length; i++) {
+        if (larguraTela > 860) {
+            elementos[i].textContent = 'Mostrar mais'
+        } else {
+            elementos[i].textContent = 'Ver mais'
+        }
+    }
+}
+
+mudaTexto()
+window.addEventListener('resize', mudaTexto)
+
