@@ -8,7 +8,9 @@
     .divisor-escondido{
         display: block;
     }
-    
+    .divisor-escondido2{
+        display: block;
+    }
     .mostrar-mais{
         margin-bottom: 20px;
     }
@@ -80,7 +82,7 @@
     }
 }
 
-@media  (max-width: 1124px){
+@media (max-width: 1124px){
     .desaparece{
         display: none;
     }
@@ -114,6 +116,9 @@
     .info-container{
         padding: 0 40px 30px 40px;
     }
+    .quebra2{
+        display: none;
+    }
 }
 
 
@@ -123,25 +128,30 @@
     }
     .oferecimentos-grid{
         grid-template-columns: 1fr;
-        grid-template-rows: 50px 50px 50px 50px;
-        width: 100%;
+        grid-template-rows: 50px;
     }
     .oferecimento{
         width: 100%;
         height: 80px;
     }
-    
-}   
-
-@media (max-width: 860px) {
+    .titulo-desaparece{
+        display: none;
+        width: 100%;
+    }
+    .titulo-pagina{
+        width: 100%;
+    }
     .aparece{
         display: flex;
         flex-direction: row;
         align-items: center;
         gap: 10px;
+        width: fit-content;
     }
     .titulo{
         margin-bottom: 20px;
+        max-width: 100%;
+
     }
     .fotos {
         grid-template-rows: repeat(1, 250px);
@@ -158,7 +168,69 @@
     .img5 {
         display: none; 
     }
-}
+    .card-preferido{
+        max-width: 100%;
+        padding: 20px;
+        justify-content: space-around;
+    }
+    .quebra1{
+        max-width: 20%;
+    }
+    .divisor3{
+        display: block;
+    }
+    .divisor-esquerda-after{
+        display: block;
+    }
+    .achado-after{
+        display: flex;
+    }
+    #abrir-modal{
+        width: 100%;
+    }
+    .desaparece-avaliacao{
+        display: none;
+    }
+    #abrir-comentarios{
+        width: 60%;
+    }
+    .politica-escondido{
+        display: flex;
+    }
+    .titulo-politica-escondido{
+        display: flex;
+    }
+    .titulo-politica-escondido p{
+        font-weight: lighter;
+    }
+    .svg-escondido{
+        display: block;
+    }
+    .divisor-after{
+        display: block;
+    }
+    .regras-container{
+        grid-template-rows: 1fr 1fr;
+        grid-template-columns: 370px;
+        width: 100%;
+    }
+    .apagado{
+        display: none;
+    }
+    .unico{
+        border: 3px solid #DFDFDF;
+    }
+    .divisor-escondido2{
+        display: none;
+    }
+    .descricao-regras h4{
+        font-size: 22px;
+    }
+    .descricao-regras span{
+        font-size: 14px;
+    }
+}   
+
 
 @media (max-width: 730px){
     .esquerda{
@@ -170,17 +242,5 @@
     }
     .ponto{
         display: none;
-    }
-}
-
-@media (max-width: 600px){
-    .detalhes-comentarios {
-        flex-direction: column;
-        width: 100%;
-        align-items: start;
-    }
-    #abrir-comentarios{
-        width: 200px;
-        margin-top: 20px;
     }
 }

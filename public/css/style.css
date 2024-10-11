@@ -131,13 +131,24 @@
     max-width: 100%;
     align-items: center;
 }
+.titulo-desaparece{
+    display: block;
+}
 
 .titulo-pagina{
-    width: 1500px;
+    width: 100%;
 }
 
 .titulo-pagina h1{
     font-size: 26px;
+}
+
+.svg-titulo{
+    width: 100%;
+}
+.btn-interacoes{
+    border: none;
+    background-color: white;
 }
 
 .interacoes{
@@ -282,6 +293,7 @@
     overflow: hidden;
 }
 
+
 .card-preferido p{
     font-size: 14px;
 }
@@ -295,6 +307,16 @@
 
 .quebra2{
     max-width: 30%;
+}
+
+.divisor3{
+    display: none;
+    height: 60px;
+    width: 1px;
+    background-color: #DFDFDF;
+    border: none;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 .notas{
@@ -369,6 +391,13 @@
     width: 670px;
     border: 1px solid #DFDFDF;
     margin-top: 20px;
+}
+
+.divisor-esquerda-after{
+    width: 670px;
+    border: 1px solid #DFDFDF;
+    margin-top: 20px;
+    display: none;
 }
 
 .card-maior{
@@ -546,6 +575,13 @@
     width: 40px;
 }
 
+.achado-after{
+    display: none;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 20px;
+}
+
 .descricao-preco{
     display: flex;
     flex-direction: column;
@@ -663,6 +699,7 @@
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 50px 50px;
     column-gap: 50px;
+    align-items: center;
 }
 
 .oferecimento{
@@ -676,6 +713,7 @@
     display: flex;
     justify-content: left;
     margin-top: 40px;
+    width: 100%;
 }
 
 #abrir-modal{
@@ -773,6 +811,11 @@
     margin-top: 20px;
 }
 
+.after{
+    width: 95%;
+    margin: 20px auto;
+}
+
 .comentarios-container{
     display: grid;
     padding: 0 80px 0 80px;
@@ -822,9 +865,38 @@
     cursor: pointer;
 }
 
+.desaparece-avaliacao{
+    display: block;
+}
+
 .detalhes-comentarios a{
     color: grey;
     font-size: 13px;
+}
+
+.politica-escondido{
+    display: none;
+    justify-content: space-between;
+    padding: 0 40px 0 40px;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.divisor-after{
+    width: 95%;
+    border: 1px solid #DFDFDF;
+    margin-top: 20px;   
+    display: none;
+    margin: 20px auto;
+}
+
+.titulo-politica-escondido{
+    display: none;
+    flex-direction: column;
+}
+
+.svg-escondido{
+    display: none;
 }
 
 .titulo-regras{
@@ -848,6 +920,17 @@
     flex-direction: column;
     gap: 10px;
     font-size: 1rem;
+}
+
+.descricao-regras h4{
+    font-size: 16px;
+}
+.descricao-regras span{
+    font-size: 16px;
+}
+
+.apagado{
+    display: flex;
 }
 
 .divide-footer{
@@ -948,6 +1031,13 @@
 }
 
 .divisor-escondido{
+    display: none;
+    border: 1px solid #DFDFDF;
+    width: 1600px;
+    margin-bottom: 20px;
+}
+
+.divisor-escondido2{
     display: none;
     border: 1px solid #DFDFDF;
     width: 1600px;

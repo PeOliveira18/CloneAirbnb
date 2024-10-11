@@ -44,7 +44,7 @@
         <div class="main-container">
             <div class="titulo">
                 <div class="titulo-pagina">
-                    <h1 class="desaparece">JQY Beach Flats - Piscina -Carregador de veículos</h1>
+                    <h1 class="titulo-desaparece">JQY Beach Flats - Piscina -Carregador de veículos</h1>
                     <div class="aparece">
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" aria-label="Voltar" role="img" focusable="false" style="display: block; fill: none; height: 16px; width: 16px; stroke: currentcolor; stroke-width: 4; overflow: visible;"><path fill="none" d="M20 28 8.7 16.7a1 1 0 0 1 0-1.4L20 4"></path></svg>
                         <p>Acomodacoes</p>
@@ -52,12 +52,16 @@
                 </div>
                 <div class="interacoes">
                     <div class="btn">
-                        <svg viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="presentation" focusable="false" style="display: block; fill: none; height: 16px; width: 16px; stroke: currentcolor; stroke-width: 2; overflow: visible;"><path d="m27 18v9c0 1.1046-.8954 2-2 2h-18c-1.10457 0-2-.8954-2-2v-9m11-15v21m-10-11 9.2929-9.29289c.3905-.39053 1.0237-.39053 1.4142 0l9.2929 9.29289" fill="none"></path></svg>
-                        <a href="#">Compartilhar</a>
+                        <button class="btn-interacoes">
+                            <svg viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="presentation" focusable="false" style="display: block; fill: none; height: 16px; width: 16px; stroke: currentcolor; stroke-width: 2; overflow: visible;" class='svg-titulo'><path d="m27 18v9c0 1.1046-.8954 2-2 2h-18c-1.10457 0-2-.8954-2-2v-9m11-15v21m-10-11 9.2929-9.29289c.3905-.39053 1.0237-.39053 1.4142 0l9.2929 9.29289" fill="none"></path></svg>
+                        </button>
+                        <a href="#" class="titulo-desaparece">Compartilhar</a>
                     </div>
                     <div class="btn">
-                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" aria-hidden="true" role="presentation" focusable="false" style="display: block; fill: none; height: 16px; width: 16px; stroke: currentcolor; stroke-width: 2; overflow: visible;"><path d="M16 28c7-4.73 14-10 14-17a6.98 6.98 0 0 0-7-7c-1.8 0-3.58.68-4.95 2.05L16 8.1l-2.05-2.05a6.98 6.98 0 0 0-9.9 0A6.98 6.98 0 0 0 2 11c0 7 7 12.27 14 17z"></path></svg>
-                        <a href="#">Salvar</a>
+                        <button class="btn-interacoes">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" aria-hidden="true" role="presentation" focusable="false" style="display: block; fill: none; height: 16px; width: 16px; stroke: currentcolor; stroke-width: 2; overflow: visible;"><path d="M16 28c7-4.73 14-10 14-17a6.98 6.98 0 0 0-7-7c-1.8 0-3.58.68-4.95 2.05L16 8.1l-2.05-2.05a6.98 6.98 0 0 0-9.9 0A6.98 6.98 0 0 0 2 11c0 7 7 12.27 14 17z"></path></svg>
+                        </button>
+                        <a href="#" class="titulo-desaparece">Salvar</a>
                     </div>
                 </div>
             </div>
@@ -89,9 +93,10 @@
                         <p>3 hospedes . 1 quarto . 2 camas . 1 banheiro</p>
                     </div>
                     <div class="card-preferido">
-                        <img src="../../public/images/banner-esquerdo.png" alt="Imagem descritiva">
-                        <p class="quebra1">Preferido dos hospedes</p>
-                        <img src="../../public/images/banner-direito.png" alt="Imagem descritiva">
+                            <img src="../../public/images/banner-esquerdo.png" alt="Imagem descritiva">
+                            <p class="quebra1">Preferido dos hospedes</p>
+                            <img src="../../public/images/banner-direito.png" alt="Imagem descritiva">
+                        <div class="divisor3"></div>
                         <p class="quebra2">Uma das acomodacoes no Airbnb que fazer mais sucesso com os hospedes</p>
                         <div class="notas">
                             <div class="nota">
@@ -115,6 +120,16 @@
                             </div>
                         </div>
                     </div>
+                    <div class="achado-after">
+                        <div class="svg-card">
+                            <svg viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="presentation" focusable="false" style="display: block; height: 32px; width: 32px; fill: rgb(227, 28, 95); stroke: currentcolor;"><g stroke="none"><path d="m32.62 6 9.526 11.114-18.146 23.921-18.147-23.921 9.526-11.114z" fill-opacity=".2"></path><path d="m34.4599349 2 12.8243129 14.9616983-23.2842478 30.6928721-23.28424779-30.6928721 12.82431289-14.9616983zm-17.9171827 16h-12.52799999l18.25899999 24.069zm27.441 0h-12.528l-5.73 24.069zm-14.583 0h-10.802l5.4012478 22.684zm-15.92-12.86-9.30799999 10.86h11.89399999zm19.253-1.141h-17.468l2.857 12.001h11.754zm1.784 1.141-2.586 10.86h11.894z"></path></g></svg>
+                        </div>
+                        <div class="descricao-preco">
+                            <p class="titulo-preco">Isso e um achado</p>
+                            <p class="subtitulo-preco">O espaço de Katia costuma estar sempre reservado.</p>
+                        </div>
+                    </div>
+                    <div class="divisor-esquerda-after"></div>
                     <div class="anfitriao">
                         <div class="foto-svg">
                             <img src="../../public/images/eu.png" alt="Foto do anfitriao">
@@ -675,10 +690,20 @@
                 </div>
                 <div class="detalhes-comentarios">
                     <button id="abrir-comentarios">Mostrar todos os 31 comentarios</button> 
-                    <a href="#">Saiba como funciona as avaliacoes</a>
+                    <a href="#" class="desaparece-avaliacao">Saiba como funciona as avaliacoes</a>
                 </div>
             </div>
-            <div class="divisor-comentarios"></div>
+            <div class="divisor-comentarios after"></div>
+            <div class="politica-escondido">
+                <div class="titulo-politica-escondido">
+                    <h4>Politicas de cancelamento</h4>
+                    <p>Consulte a politica completa deste anfitriao para sber mais.</p>
+                </div>
+                <div class="svg-escondido">
+                    <svg viewBox="0 0 18 18" role="presentation" aria-hidden="true" focusable="false" style="height: 14px; width: 14px; display: block; fill: currentcolor;"><path d="m4.29 1.71a1 1 0 1 1 1.42-1.41l8 8a1 1 0 0 1 0 1.41l-8 8a1 1 0 1 1 -1.42-1.41l7.29-7.29z" fill-rule="evenodd"></path></svg>
+                </div>
+            </div>
+            <div class="divisor-after"></div>
             <div class="titulo-regras">
                 <h2>O que voce deve saber</h2>
             </div>
@@ -703,9 +728,9 @@
                         <a href="#">Mostrar mais</a>
                         <a href=""><svg viewBox="0 0 18 18" role="presentation" aria-hidden="true" focusable="false" style="height: 12px; width: 12px; display: block; fill: grey;"><path d="m4.29 1.71a1 1 0 1 1 1.42-1.41l8 8a1 1 0 0 1 0 1.41l-8 8a1 1 0 1 1 -1.42-1.41l7.29-7.29z" fill-rule="evenodd"></path></svg></a>
                     </div>
-                    <div class="divisor-escondido"></div>
+                    <div class="divisor-escondido2"></div>
                 </div>
-                <div class="descricao-regras">
+                <div class="descricao-regras apagado">
                     <h4>Politicas de cancelamento</h4>
                     <span class="descricao-quarto">Esta reserva nao e reembolsavel</span>
                     <span class="descricao-quarto">Consulte a policita completa deste anfitriao para saber mais</span>
@@ -717,7 +742,7 @@
         </div>
         </div>
     </main>
-    <div class="divide-footer"></div>
+    <div class="unico"></div>
     <footer>
         <div class="footer-container">
             <div class="detalhes-footer">
